@@ -371,6 +371,12 @@ footer i {
 
     .fonctionnement__ul {
         flex-direction: row;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .fonctionnement__li {
+        margin: 1rem;
     }
 
     .restaurants {
@@ -408,4 +414,18 @@ footer i {
         margin: 1rem 2rem 1rem 2rem
     }
 
+    /* Menu */
+    .menu__main {
+        width: 80%;
+        align-items: center;
+        margin: -3rem 10% 0;
+    }
+
+    .menu__title h1 {
+        margin: 2rem;
+    }
+
+    .menu__card{
+        min-width: 38rem;
+    }
 }
