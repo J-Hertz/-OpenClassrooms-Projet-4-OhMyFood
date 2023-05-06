@@ -106,7 +106,7 @@ header {
     font-family: var(--roboto-font);
     font-size: 16px;
     font-weight: bold;
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
     margin: 1rem 1.5rem;
     width: 74%;
     background-color: #f6f6f6;
@@ -114,15 +114,14 @@ header {
     border-radius: 20px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .fonctionnement__li i {
-    margin: 0% 5%;
+    margin: 0 0.5rem;
 }
 
 .fonctionnement__number {
-    position: relative;
-    right: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +129,9 @@ header {
     height: 1.5rem;
     color: white;
     background: #9356DC;
-    border-radius: 50%;
+    border-radius: 50px;
+    position: absolute;
+    left: -0.7rem;
 }
 
 /* Restaurants*/
@@ -352,3 +353,59 @@ footer i {
     text-align: center;
 }
 
+/*** Media Queries ***/
+/* Desktop version (more than 1024px)  */
+@media (min-width: 1024px) {
+    /* Homepage*/
+    .explorer__title {
+        font-size: 40px;
+    }
+
+    .explorer__button {
+        margin: 1rem 38% 2rem;
+    }
+
+    .fonctionnement {
+        margin: 0 5rem 4rem 5rem;
+    }
+
+    .fonctionnement__ul {
+        flex-direction: row;
+    }
+
+    .restaurants {
+        padding: 2rem 5rem 4rem 5rem;
+    }
+
+    .restaurants__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .restaurants__card {
+        margin: 1.5rem;
+        width: 44%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 2rem;
+    }
+
+    footer ul {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    footer li {
+        margin-right: 1rem;
+    }
+
+    .footer__logo {
+        margin: 1rem 2rem 1rem 2rem
+    }
+
+}
