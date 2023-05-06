@@ -18,8 +18,8 @@ header {
 
 .header__logo {
     height: auto;
-    width: 45%;
-    margin: 5% 20% 2%;
+    width: 12rem;
+    margin: 1.5rem;
 }
 
 /* Location */
@@ -33,7 +33,7 @@ header {
 .location i {
     height: 16px;
     width: auto;
-    margin: 2%;
+    margin: 1rem;
 }
 
 .location__title {
@@ -56,7 +56,7 @@ header {
     font-size: 24px;
     font-weight: 700;
     color: black;
-    margin: 10% 13% 2%;
+    margin: 2rem 0 0;
 }
 
 .explorer__paragraph {
@@ -64,7 +64,7 @@ header {
     font-size: 18px;
     font-weight: 300;
     color: #353535;
-    margin: 3%;
+    margin: 1rem;
 }
 
 .explorer__button {
@@ -75,14 +75,14 @@ header {
     font-weight: 500;
     color: white;
     background:linear-gradient(#FF79DA 0%, #9356DC 100%);
-    padding: 5%;
-    margin: 6% 20% 15%;
+    padding: 1rem;
+    margin: 1rem 20% 4rem;
     border-radius: 30px;
 }
 
 /* Fonctionnement */
 .fonctionnement {
-    margin-bottom: 20%;
+    margin-bottom: 4rem;
 }
 
 .fonctionnement__title {
@@ -90,7 +90,7 @@ header {
     font-size: 24px;
     font-weight: 700;
     color: black;
-    margin: 10% 5%;
+    margin: 2rem 2rem;
 }
 
 .fonctionnement__ul {
@@ -98,18 +98,17 @@ header {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     list-style: none;
-    margin: 0% 10%;
 }
 
 .fonctionnement__li {
     font-family: var(--roboto-font);
     font-size: 16px;
     font-weight: bold;
-    padding: 8%;
-    margin: 2%;
-    width: 80%;
+    padding: 1.5rem;
+    margin: 1rem 1.5rem;
+    width: 74%;
     background-color: #f6f6f6;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
@@ -123,12 +122,12 @@ header {
 
 .fonctionnement__number {
     position: relative;
-    right: 12%;
+    right: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     color: white;
     background: #9356DC;
     border-radius: 50%;
@@ -137,7 +136,7 @@ header {
 /* Restaurants*/
 .restaurants {
     background-color: #f7f7f7;
-    padding: 5% 0% 15% 0%;
+    padding: 1rem 0 5rem 0;
 }
 
 .restaurants__title {
@@ -145,13 +144,14 @@ header {
     font-size: 24px;
     font-weight: bold;
     color: black;
-    margin: 10% 5%;
+    margin: 1rem 2rem;
 }
 
 .restaurants__card {
+    position: relative;
     display: flex;
     flex-direction: column;
-    margin: 5%;
+    margin: 2rem;
     text-decoration: none;
     color: inherit;
     background-color: white;
@@ -162,10 +162,11 @@ header {
 .restaurants__card--content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .restaurants__card--content i {
-    margin: 5%;
+    margin: 2rem;
 }
 
 .restaurants__card--img {
@@ -176,10 +177,9 @@ header {
 }
 
 .restaurants__nouveau {
-    position: relative;
-    margin-top: -6%;
-    bottom: 9rem;
-    left: 72%;
+    position: absolute;
+    top: 1rem;
+    right: 0.75rem;
     font-family: var(--roboto-font);
     font-size: 14px;
     font-weight: 500;
@@ -188,8 +188,8 @@ header {
 /*    display: flex; */
 /*    justify-content: center; */
     text-align: center;
-    padding: 2% 0%;
-    width: 22%;
+    padding: 0.5rem 0%;
+    width: 7rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     border-radius: 2px;
 }
@@ -203,7 +203,7 @@ width: 80%;
     font-size: 18px;
     font-weight: 700;
     color: black;
-    margin: 4% 1% 1% 4%;
+    margin: 1rem 0rem 0 1rem;
 }
 
 .restaurants__card--paragraph {
@@ -211,7 +211,7 @@ width: 80%;
     font-size: 17px;
     font-weight: 300;
     color: black;
-    margin: 1% 1% 4% 4%;
+    margin: 0.4rem 0 1rem 1rem;
 }
 
 /* Footer */ 
@@ -226,13 +226,13 @@ footer {
     font-family: 'Shrikhand', cursive;
     font-size: 18px;
     color: white;
-    margin: 10% 10% 5% 10%;
+    margin: 2rem 2rem 1rem 2rem;
 }
 
 footer ul {
     list-style: none;
     padding: 0;
-    margin: 0% 10% 10% 10%;
+    margin: 0 2rem 2rem 2rem;
 }
 
 footer a {
@@ -244,11 +244,11 @@ footer a {
 }
 
 footer li {
-    margin-bottom: 4%;
+    margin-bottom: 0.5rem;
 }
 
 footer i {
-    margin: 2%;
+    margin: 0.5rem;
 }
 
 /*** Menu ***/
@@ -256,6 +256,13 @@ footer i {
 .menu__header {
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.menu__header i {
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
 }
 
 /* Main */
@@ -268,7 +275,7 @@ footer i {
 .menu__main {
     background-color: #f6f6f6;
     border-radius: 40px 40px 0px 0px;
-    margin-top: -14%;
+    margin-top: -3rem;
     z-index: 1;
     position: relative;
     display: flex;
@@ -280,16 +287,16 @@ footer i {
     align-items: center;
     justify-content: space-between;
     font-family: "Shrikhand", "cursive";
-    padding: 2% 12% 0 7%;
+    padding: 0.5rem 2rem 0 1.5rem;
 }
 
 .submenu__title {
     font-family: var(--roboto-font);
     font-weight: 300;
     font-size: 16px;
-    margin: 5%;
-    padding-bottom: 2%;
-    width: 11%;
+    margin: 1rem;
+    padding-bottom: 0.5rem;
+    width: 2rem;
     border-bottom: solid 3px #99E2D0; 
 }
 
@@ -301,7 +308,7 @@ footer i {
     border-radius: 15px;
     background-color: white;
     width: 94%;
-    margin: 5% 3%;
+    margin: 1rem 3%;
 }
 
 .menu__card--text {
@@ -309,7 +316,7 @@ footer i {
 }
 
 .menu__card--text h4 {
-    margin: 5% 5% 2%;
+    margin: 1rem 1rem 0.5rem;
     font-family: var(--roboto-font);
     font-weight: bold;
     font-size: 18px;
@@ -321,14 +328,14 @@ footer i {
     font-size: 15px;
     font-weight: 300;
     color: black;
-    margin:0% 5% 5%;
+    margin:0 1rem 1rem;
 }
 
 .menu__card--price {
     font-family: var(--roboto-font);
     font-weight: bold;
     font-size: 15px;
-    margin: 5% 5% 5% 0%;
+    margin: 1rem 1rem 1rem 0;
 }
 
 .commander__button {
@@ -339,8 +346,8 @@ footer i {
     font-weight: 500;
     color: white;
     background:linear-gradient(#FF79DA 0%, #9356DC 100%);
-    padding: 5%;
-    margin: 10% 26% 10%;
+    padding: 1rem;
+    margin: 3rem 26% 3rem;
     border-radius: 30px;
     text-align: center;
 }
