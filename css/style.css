@@ -50,6 +50,7 @@ body {
     padding: 0;
 }
 
+/* Icons */
 .icon__black {
     color: #000000;
 }
@@ -65,6 +66,23 @@ body {
 
 .icon__white {
     color: #ffffff;
+}
+
+.fa-heart {
+    font-weight: 400;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    background:linear-gradient(0deg,#FF79DA 0%, #9356DC 100%,0);
+    background-size: 0;
+}
+
+.fa-heart:hover {
+    font-weight: bold;
+    background:linear-gradient(0deg,#FF79DA 0%, #9356DC 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100%;
 }
 
 /*** Homepage ***/
