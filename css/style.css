@@ -564,6 +564,11 @@ footer i {
     margin: 3rem 26% 3rem;
     border-radius: 30px;
     text-align: center;
+    transition: 200ms;
+}
+
+.commander__button:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.40), inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 
 /*** Media Queries ***/
