@@ -529,6 +529,9 @@ footer i {
     font-weight: bold;
     font-size: 18px;
     color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .menu__card--text p {
@@ -537,6 +540,9 @@ footer i {
     font-weight: 300;
     color: black;
     margin:0 1rem 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .menu__card--price {
