@@ -70,7 +70,6 @@ body {
 
 .fa-heart {
     font-weight: 400;
-    transition: 0.5s;
     font-size: 1.5rem;
     background:linear-gradient(0deg,#FF79DA 0%, #9356DC 100%,0);
     background-size: 0;
@@ -78,6 +77,7 @@ body {
 
 .fa-heart:hover {
     font-weight: bold;
+    transition: 0.5s;
     background:linear-gradient(0deg,#FF79DA 0%, #9356DC 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -248,7 +248,7 @@ header {
     left: -0.7rem;
 }
 
-.fonctionnement i:hover {
+.fonctionnement__li:hover i {
     color: #9356DC;
 }
 
