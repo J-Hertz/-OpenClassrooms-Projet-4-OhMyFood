@@ -71,7 +71,6 @@ body {
 .fa-heart {
     font-weight: 400;
     font-size: 1.5rem;
-    background:linear-gradient(0deg,#FF79DA 0%, #9356DC 100%,0);
     background-size: 0;
 }
 
