@@ -572,6 +572,7 @@ footer i {
 /* Desktop version (more than 1024px)  */
 @media (min-width: 1024px) {
     /* Homepage*/
+    /* Main */
     .explorer__title {
         font-size: 40px;
     }
@@ -609,6 +610,7 @@ footer i {
         width: 44%;
     }
 
+    /* Footer */
     footer {
         display: flex;
         flex-direction: row-reverse;
