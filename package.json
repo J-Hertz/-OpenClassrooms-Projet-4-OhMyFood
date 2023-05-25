@@ -1,0 +1,19 @@
+{
+  "name": "hertz_jonathan_1_ohmyfood_052023",
+  "version": "1.0.0",
+  "description": "Projet 4 du parcours Intégrateur Web d'OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Hertz/-OpenClassrooms-Projet-4-OhMyFood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Hertz/-OpenClassrooms-Projet-4-OhMyFood/issues"
+  },
+  "homepage": "https://github.com/J-Hertz/-OpenClassrooms-Projet-4-OhMyFood#readme"
+}
