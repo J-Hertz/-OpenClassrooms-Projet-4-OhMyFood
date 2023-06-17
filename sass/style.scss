@@ -169,11 +169,23 @@ header {
 	}
 }
 
-.location__title {
+.location__search {
+	border: none;
+	outline: none;
+	background-color: $background-color_2;
 	font-family: $font-family_1;
 	font-size: 16px;
 	font-weight: bold;
 	color: $color_3;
+	width: 8rem;
+	
+	&::placeholder {
+		opacity: 1;
+		font-family: $font-family_1;
+		font-size: 16px;
+		font-weight: bold;
+		color: $color_3;
+	}
 }
 
 /* Explorer */
